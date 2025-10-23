@@ -23,6 +23,6 @@ const { Content } = await render(post);
 
 <BaseLayout>
     <h1>{post.data.title}</h1>
-    <p>{post.data.pubDate.toDateString()}</p>
+    <p><i>{post.data.pubDate.toDateString()}</i></p>
     <Content />
 </BaseLayout>
