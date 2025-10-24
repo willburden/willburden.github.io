@@ -1,17 +1,19 @@
 ---
 import { getCollection } from "astro:content";
-import BaseLayout from "../layouts/BaseLayout.astro";
+import Layout from "../layouts/Layout.astro";
 
 const posts = await getCollection("blog");
 ---
 
-<BaseLayout>
-	<h1>Posts</h1>
-	<ul>
-		{posts.map((post) => (
-			<li><a href={`/post/${post.id}`}>
-				{post.data.title} ({post.data.pubDate.toDateString()})
-			</a></li>
-		))}
-	</ul>
-</BaseLayout>
+<Layout>
+    <h1 class="font-bold text-2xl leading-6 mb-4">Posts</h1>
+    <ul class="list-disc list-inside space-y-4">
+        {posts.map((post) => (
+            <li>
+                <a href={`/posts/${post.id}`} class="underline">
+                    {post.data.title} ({post.data.pubDate.toDateString()})
+                </a>
+            </li>
+        ))}
+    </ul>
+</Layout>

@@ -1,0 +1,23 @@
+---
+import '../styles/global.css';
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>willburden.github.io</title>
+	</head>
+	
+	<body class="p-4">
+        <nav class="mt-2 mb-4">
+            <a href="/" class="underline">willburden.github.io</a>
+        </nav>
+
+        <slot />
+
+		<script is:inline src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
+	</body>
+</html>
