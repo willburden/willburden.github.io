@@ -1,11 +1,8 @@
 ---
 import type { GetStaticPaths } from "astro";
-import Layout from "../../layouts/Layout.astro";
-import { getCollection } from "astro:content";
-import type { CollectionEntry } from "astro:content";
-import { render } from "astro:content";
-import dateString from "../../util/dateString";
-import PostTag from "../../components/PostTag.astro";
+import { getCollection, render, type CollectionEntry } from "astro:content";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import formatDate from "../../util/formatDate";
 
 interface Props {
     post: CollectionEntry<"blog">;
@@ -23,19 +20,25 @@ const { post } = Astro.props;
 const { Content } = await render(post);
 ---
 
-<Layout>
-    <article>
-        <header class="space-y-1">
-            <h1 class="font-bold text-2xl leading-6">{post.data.title}</h1>
-            <p>{dateString(post.data.pubDate)}</p>
-            <div>
-                <PostTag href="#">tech</PostTag>
-                <PostTag href="#">web</PostTag>
-                <PostTag href="#">tutorial</PostTag>
-            </div>
-        </header>
-        <main class="mt-4 space-y-4">
-            <Content />
-        </main>
-    </article>
-</Layout>
+<BaseLayout>
+    <h1>{post.data.title}</h1>
+    <p class="date">{formatDate(post.data.pubDate)}</p>
+    <Content />
+</BaseLayout>
+
+<style lang="scss">
+    @use '../../styles/_theme' as *;
+
+    h1, .date {
+        margin: 0;
+    }
+
+    h1 {
+        font-size: $size-xl;
+        // margin-bottom: $space-sm;
+    }
+
+    .date {
+        @include font-technical;
+    }
+</style>

@@ -1,0 +1,39 @@
+@use './_theme' as *;
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    @include font-content;
+    
+    background-color: $color-base;
+    font-size: $size-md;
+}
+
+:first-child {
+    margin-top: 0;
+}
+
+:last-child {
+    margin-bottom: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    @include font-display;
+
+    margin-block: $space-md;
+    font-size: $size-lg;
+}
+
+p {
+    margin-block: $space-md;
+}
+
+a {
+    font-weight: bold;
+    color: $color-primary;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-color: $color-dark;
+}

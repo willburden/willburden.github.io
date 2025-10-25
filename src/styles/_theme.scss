@@ -1,0 +1,49 @@
+// Layout
+
+$space-sm: 0.4rem;
+$space-md: 0.8rem;
+$space-lg: 1.2rem;
+$space-xl: 2rem;
+
+// Typography
+
+$font-sans: "Rubik", sans-serif;
+$font-serif: "Merriweather", serif;
+
+$size-sm: 0.8rem;
+$size-md: 1rem;
+$size-lg: 1.2rem;
+$size-xl: 1.6rem;
+$size-2xl: 2.4rem;
+
+@mixin font-display {
+    font-family: $font-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+    color: $color-primary;
+}
+
+@mixin font-technical {
+    font-family: $font-sans;
+    font-optical-sizing: auto;
+    font-weight: lighter;
+    font-style: normal;
+    color: $color-primary;
+}
+
+@mixin font-content {
+    font-family: $font-sans;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    color: $color-dark;
+}
+
+// Colors
+
+$color-primary: #6d4c41;
+$color-dark: #302525;
+$color-base: #f3f5f7;

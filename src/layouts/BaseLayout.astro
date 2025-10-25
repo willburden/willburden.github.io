@@ -1,0 +1,64 @@
+---
+import BearIcon from '../components/icons/BearIcon.astro';
+import '../styles/_normalise.scss';
+import '../styles/global.scss';
+
+interface Props {
+	home?: boolean;
+};
+
+const { home = false } = Astro.props;
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>willburden.github.io</title>
+
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+	</head>
+	
+	<body>
+		<nav>
+			<a href="/">
+				<BearIcon />
+				<div class="logo-text">
+					<span>will</span>
+					<span>burden</span>
+				</div>
+			</a>
+		</nav>
+
+		<main>
+        	<slot />
+		</main>
+	</body>
+</html>
+
+<style lang="scss">
+	@use '../styles/_theme' as *;
+
+	body {
+		padding: 0 $space-md;
+	}
+
+	nav {
+		margin: $space-xl 0;
+		
+		a {
+			display: inline-flex;
+
+			div {
+				margin-left: $space-sm;
+				display: flex;
+				flex-direction: column;
+				justify-content: end;
+			}
+		}
+	}
+</style>
