@@ -1,6 +1,8 @@
 ---
 title: 'Building a blog with Astro and Sass'
 pubDate: 2025-10-23
+cover: '../media/walking-in-woods.jpg'
+coverAlt: 'A photo of someone walking through woods, taken from a distance behind. There are bright green and yellow leaves.'
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non lorem diam. Quisque vulputate nibh sodales eros pretium tincidunt. Aenean porttitor efficitur convallis. Nulla sagittis finibus convallis. Phasellus in fermentum quam, eu egestas tortor. Maecenas ac mollis leo. Integer maximus eu nisl vel sagittis.
@@ -18,5 +20,7 @@ Eget at nec:
 - Non feugiat turpis eleifend tristique.
 
 Etiam quis massa non massa sagittis accumsan eget at tellus. Quisque non fringilla magna, in tincidunt ligula. Nullam euismod, odio non luctus suscipit, neque quam mollis diam, in consequat augue mauris vitae nunc. Vestibulum consectetur quam ante. Donec vulputate dolor in odio ultricies, ut venenatis lorem luctus. Sed quis tellus risus. Nullam quis mi vitae nibh malesuada blandit. Duis sit amet tortor interdum, sodales est ut, pellentesque mi.
+
+![An acoustic guitar leaning against a bed with a complex tiling pattern.](../media/acoustic-guitar.jpg)
 
 Mauris non enim consectetur, ultrices lacus gravida, imperdiet lacus. Duis eget nulla nec turpis euismod laoreet. Nam tristique sem in elit lacinia tristique. Ut sem mi, suscipit quis nisi a, finibus ultrices eros. Donec sed ultricies est. Nullam volutpat metus sed dui lobortis tincidunt. Pellentesque rutrum maximus libero non luctus. Pellentesque id felis quis lacus varius tempus. Phasellus a est et justo mattis molestie a ac augue. Sed at purus erat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec dapibus eget nulla eu venenatis. 

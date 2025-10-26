@@ -10,7 +10,7 @@ const posts = await getCollection("blog");
     <ul class="list-disc list-inside space-y-4">
         {posts.map((post) => (
             <li>
-                <a href={`/posts/${post.id}/`} class="underline">
+                <a href={`/posts/${post.id}/`}>
                     {post.data.title} ({post.data.pubDate.toDateString()})
                 </a>
             </li>

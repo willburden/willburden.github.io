@@ -14,11 +14,6 @@
 
 h1, h2, h3, h4, h5, h6, p {
     padding-inline: $space-md;
-    @include space-between($space-md);
-}
-
-li {
-    @include space-between($space-sm);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -30,5 +25,5 @@ a {
     font-weight: bold;
     color: $color-secondary;
     text-decoration: underline;
-    text-decoration-thickness: 2px;
+    text-decoration-thickness: $underline-thickness;
 }
