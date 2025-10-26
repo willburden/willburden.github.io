@@ -21,7 +21,6 @@ h1, h2, h3, h4, h5, h6 {
 
     margin-block: $space-md;
     
-    color: $color-primary;
     font-size: $size-lg;
 }
 
@@ -34,5 +33,4 @@ a {
     color: $color-secondary;
     text-decoration: underline;
     text-decoration-thickness: 2px;
-    text-decoration-color: $color-dark;
 }
