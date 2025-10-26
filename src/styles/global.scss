@@ -12,8 +12,13 @@
     font-size: $size-md;
 }
 
-h1, h2, h3, h4, h5, h6, p, ul, ol {
+h1, h2, h3, h4, h5, h6, p {
+    padding-inline: $space-md;
     @include space-between($space-md);
+}
+
+li {
+    @include space-between($space-sm);
 }
 
 h1, h2, h3, h4, h5, h6 {

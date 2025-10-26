@@ -5,17 +5,19 @@
 </ul>
 
 <style lang="scss">
-    @use '../../styles/_theme' as *;
+    @use '../styles/_theme' as *;
 
     ul {
-        padding-inline-start: 0;
+        padding-inline-start: $space-md;
 
         li {
             display: inline-block;
+            margin: 0;
             padding: $space-sm;
+
             border: $border-thickness solid $color-subtle;
             border-radius: $border-radius;
-            box-shadow: 0 $shadow-offset $color-subtle;
+            box-shadow: 0 $border-thickness $color-subtle;
         }
     }
 </style>

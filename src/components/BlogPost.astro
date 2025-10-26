@@ -1,7 +1,8 @@
 ---
 import { render, type CollectionEntry } from 'astro:content'
-import formatDate from '../../util/formatDate';
+import formatDate from '../util/formatDate';
 import TagCluster from './TagCluster.astro';
+import { Image } from 'astro:assets';
 
 interface Props {
     post: CollectionEntry<'blog'>;
@@ -17,6 +18,9 @@ const { Content } = await render(post);
     <header>
         <h1>{post.data.title}</h1>
         <p>{pubDate}</p>
+        {post.data.cover !== undefined &&
+            <Image src={post.data.cover} alt={post.data.coverAlt ?? null} />
+        }
         <TagCluster />
     </header>
     <div class="content">
@@ -25,15 +29,7 @@ const { Content } = await render(post);
 </article>
 
 <style lang="scss">
-    @use '../../styles/_theme' as *;
-
-    article {
-        padding: $space-lg 0;
-    }
-
-    header, .content {
-        padding-inline: $space-md;
-    }
+    @use '../styles/_theme' as *;
 
     header {
         margin-bottom: $space-md;
@@ -48,6 +44,11 @@ const { Content } = await render(post);
 
         p {
             @include font-technical;
+        }
+
+        img {
+            padding: 0;
+            margin: 0;
         }
     }
 

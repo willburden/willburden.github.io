@@ -1,6 +1,6 @@
 ---
 import LinkFonts from '../components/meta/LinkFonts.astro';
-import Header from '../components/sections/Header.astro';
+import Header from '../components/Header.astro';
 import '../styles/_normalise.scss';
 import '../styles/global.scss';
 ---
@@ -24,3 +24,11 @@ import '../styles/global.scss';
 		</main>
 	</body>
 </html>
+
+<style lang="scss">
+	@use '../styles/_theme' as *;
+
+	main {
+		padding: $space-lg 0;
+	}
+</style>
