@@ -36,8 +36,8 @@ const { Content } = await render(post);
 <style lang="scss">
     @use '../../styles/_theme' as *;
 
-    h1, .date, .tags {
-        margin-block: $space-sm;
+    h1, .tags {
+        margin: 0;
     }
 
     h1 {
@@ -45,7 +45,10 @@ const { Content } = await render(post);
     }
 
     .date {
+        margin-block: $space-sm;
+        
         @include font-technical;
+        // color: $color-subtle-dark;
     }
 
     .tags {
@@ -54,7 +57,7 @@ const { Content } = await render(post);
         li {
             display: inline-block;
             padding: $space-sm;
-            border: 1px solid $color-dark;
+            border: 1px solid $color-subtle;
             border-radius: 2px;
         }
     }

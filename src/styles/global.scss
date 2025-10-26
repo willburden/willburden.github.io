@@ -8,12 +8,24 @@
     @include font-content;
     
     background-color: $color-base;
-    color: $color-dark;
+    color: $color-neutral;
     font-size: $size-md;
 }
 
-main > * {
-    padding: 0 $space-md;
+main {
+    padding: $space-lg 0;
+ 
+    > * {
+        padding: 0 $space-md;
+
+        &:first-child {
+            margin-top: 0;
+        }
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
 }
 
 h1, h2, h3, h4, h5, h6 {

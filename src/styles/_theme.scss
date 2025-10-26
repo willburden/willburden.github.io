@@ -36,10 +36,17 @@ $size-2xl: 2.4rem;
     font-style: normal;
 }
 
+// Decoration
+
+$shadow-offset: 1px;
+$shadow-blur: 2px;
+
 // Colors
 
 $color-primary: #6d4c41;
+$color-primary-dark: #4c352d;
 $color-secondary: #4f79d1;
-$color-dark: #000000;
-$color-subtle: #c4bdbd;
+$color-subtle: #c5c5c5;
+$color-subtle-dark:#7c7c7c;
+$color-neutral: #000000;
 $color-base: #ffffff;
