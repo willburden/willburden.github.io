@@ -47,12 +47,9 @@ const { home = false } = Astro.props;
 <style lang="scss">
 	@use '../styles/_theme' as *;
 
-	body {
-		padding: 0 $space-md;
-	}
-
 	nav {
-		margin: $space-xl 0;
+		padding: $space-lg $space-md;
+		box-shadow: 0 1px 5px $color-subtle;
 		
 		a {
 			display: inline-flex;
@@ -62,7 +59,13 @@ const { home = false } = Astro.props;
 				display: flex;
 				flex-direction: column;
 				justify-content: end;
+				
+				color: $color-primary;
 			}
 		}
+	}
+
+	main {
+		padding: $space-lg 0;
 	}
 </style>

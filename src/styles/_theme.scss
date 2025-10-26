@@ -1,9 +1,8 @@
 // Layout
 
 $space-sm: 0.4rem;
-$space-md: 0.8rem;
-$space-lg: 1.2rem;
-$space-xl: 2rem;
+$space-md: 1.2rem;
+$space-lg: 2rem;
 
 // Typography
 
@@ -23,27 +22,24 @@ $size-2xl: 2.4rem;
     font-style: normal;
     font-variation-settings:
         "wdth" 100;
-    color: $color-primary;
 }
 
 @mixin font-technical {
     font-family: $font-sans;
-    font-optical-sizing: auto;
-    font-weight: lighter;
+    font-weight: 300;
     font-style: normal;
-    color: $color-primary;
 }
 
 @mixin font-content {
     font-family: $font-sans;
-    font-optical-sizing: auto;
     font-weight: normal;
     font-style: normal;
-    color: $color-dark;
 }
 
 // Colors
 
 $color-primary: #6d4c41;
+$color-secondary: #3359d8;
 $color-dark: #302525;
-$color-base: white;
+$color-subtle: #c4bdbd;
+$color-base: #ffffff;

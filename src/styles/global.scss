@@ -8,21 +8,20 @@
     @include font-content;
     
     background-color: $color-base;
+    color: $color-dark;
     font-size: $size-md;
 }
 
-:first-child {
-    margin-top: 0;
-}
-
-:last-child {
-    margin-bottom: 0;
+main > * {
+    padding: 0 $space-md;
 }
 
 h1, h2, h3, h4, h5, h6 {
     @include font-display;
 
     margin-block: $space-md;
+    
+    color: $color-primary;
     font-size: $size-lg;
 }
 
@@ -32,7 +31,7 @@ p {
 
 a {
     font-weight: bold;
-    color: $color-primary;
+    color: $color-secondary;
     text-decoration: underline;
     text-decoration-thickness: 2px;
     text-decoration-color: $color-dark;

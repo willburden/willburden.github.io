@@ -23,22 +23,47 @@ const { Content } = await render(post);
 <BaseLayout>
     <h1>{post.data.title}</h1>
     <p class="date">{formatDate(post.data.pubDate)}</p>
-    <Content />
+    <ul class="tags">
+        <li><a href="#">technology</a></li>
+        <li><a href="#">web</a></li>
+        <li><a href="#">tutorial</a></li>
+    </ul>
+    <div class="prose">
+        <Content />
+    </div>
 </BaseLayout>
 
 <style lang="scss">
     @use '../../styles/_theme' as *;
 
-    h1, .date {
-        margin: 0;
+    h1, .date, .tags {
+        margin-block: $space-sm;
     }
 
     h1 {
         font-size: $size-xl;
-        // margin-bottom: $space-sm;
     }
 
     .date {
         @include font-technical;
+    }
+
+    .tags {
+        margin-bottom: 0;
+
+        li {
+            display: inline-block;
+            padding: $space-sm;
+            border: 1px solid $color-dark;
+            border-radius: 2px;
+        }
+    }
+</style>
+
+<style lang="scss" is:global>
+    @use '../../styles/_theme' as *;
+
+    .prose {
+        line-height: $size-xl;
     }
 </style>
