@@ -1,0 +1,57 @@
+---
+import { render, type CollectionEntry } from 'astro:content'
+import formatDate from '../../util/formatDate';
+import TagCluster from './TagCluster.astro';
+
+interface Props {
+    post: CollectionEntry<'blog'>;
+}
+
+const { post } = Astro.props;
+
+const pubDate = formatDate(post.data.pubDate);
+const { Content } = await render(post);
+---
+
+<article>
+    <header>
+        <h1>{post.data.title}</h1>
+        <p>{pubDate}</p>
+        <TagCluster />
+    </header>
+    <div class="content">
+        <Content />
+    </div>
+</article>
+
+<style lang="scss">
+    @use '../../styles/_theme' as *;
+
+    article {
+        padding: $space-lg 0;
+    }
+
+    header, .content {
+        padding-inline: $space-md;
+    }
+
+    header {
+        margin-bottom: $space-md;
+
+        > * {
+            @include space-between($space-sm);
+        }
+
+        h1 {
+            font-size: $size-xl;
+        }
+
+        p {
+            @include font-technical;
+        }
+    }
+
+    .content {
+        line-height: $size-xl;
+    }
+</style>

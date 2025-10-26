@@ -1,13 +1,8 @@
 ---
-import BearIcon from '../components/icons/BearIcon.astro';
+import LinkFonts from '../components/meta/LinkFonts.astro';
+import Header from '../components/sections/Header.astro';
 import '../styles/_normalise.scss';
 import '../styles/global.scss';
-
-interface Props {
-	home?: boolean;
-};
-
-const { home = false } = Astro.props;
 ---
 
 <html lang="en">
@@ -18,58 +13,14 @@ const { home = false } = Astro.props;
 		<title>willburden.github.io</title>
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link
-			href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,700;1,18..144,700&family=Rubik:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
-			rel="preload"
-			as="style"
-			onload="this.onload=null;this.rel='stylesheet'">
+		<LinkFonts />
 	</head>
 	
 	<body>
-		<nav>
-			<a href="/">
-				<BearIcon />
-				<div class="logo-text">
-					<span>singing</span>
-					<span>bear</span>
-				</div>
-			</a>
-		</nav>
-
+		<Header />
+		
 		<main>
         	<slot />
 		</main>
 	</body>
 </html>
-
-<style lang="scss">
-	@use '../styles/_theme' as *;
-
-	nav {
-		padding: $space-lg $space-md;
-		box-shadow: 0 $shadow-offset $shadow-blur $color-subtle;
-		
-		a {
-			display: inline-flex;
-			text-decoration: none;
-			font-size: $size-lg;
-			align-items: center;
-
-			div {
-				margin-left: $space-sm;
-				display: flex;
-				flex-direction: column;
-				justify-content: end;
-				
-				line-height: $size-md;
-				color: $color-primary;
-
-				:last-child {
-					color: $color-primary-dark;
-				}
-			}
-		}
-	}
-</style>

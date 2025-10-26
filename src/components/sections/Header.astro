@@ -1,0 +1,43 @@
+---
+import BearIcon from "../icons/BearIcon.astro";
+---
+
+<header>
+    <a href="/">
+        <BearIcon />
+        <div class="logo-text">
+            <span>will</span>
+            <span>burden</span>
+        </div>
+    </a>
+</header>
+
+<style lang="scss">
+	@use '../../styles/_theme' as *;
+
+	header {
+		padding: $space-lg $space-md;
+		box-shadow: 0 $shadow-offset $shadow-blur $color-subtle;
+		
+		a {
+			display: inline-flex;
+			text-decoration: none;
+			font-size: $size-lg;
+			align-items: end;
+
+			div {
+				margin-left: $space-sm;
+				display: flex;
+				flex-direction: column;
+				justify-content: end;
+				
+				line-height: $size-md;
+				color: $color-primary;
+
+				:last-child {
+					color: $color-primary-dark;
+				}
+			}
+		}
+	}
+</style>

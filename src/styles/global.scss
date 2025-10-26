@@ -12,32 +12,13 @@
     font-size: $size-md;
 }
 
-main {
-    padding: $space-lg 0;
- 
-    > * {
-        padding: 0 $space-md;
-
-        &:first-child {
-            margin-top: 0;
-        }
-
-        &:last-child {
-            margin-bottom: 0;
-        }
-    }
+h1, h2, h3, h4, h5, h6, p, ul, ol {
+    @include space-between($space-md);
 }
 
 h1, h2, h3, h4, h5, h6 {
     @include font-display;
-
-    margin-block: $space-md;
-    
     font-size: $size-lg;
-}
-
-p {
-    margin-block: $space-md;
 }
 
 a {

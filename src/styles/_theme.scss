@@ -4,6 +4,18 @@ $space-sm: 0.4rem;
 $space-md: 1.2rem;
 $space-lg: 2rem;
 
+@mixin space-between($value) {
+    margin-block: $value;
+
+    &:first-child {
+        margin-block-start: 0;
+    }
+
+    &:last-child {
+        margin-block-end: 0;
+    }
+}
+
 // Typography
 
 $font-sans: "Rubik", sans-serif;
@@ -41,11 +53,14 @@ $size-2xl: 2.4rem;
 $shadow-offset: 1px;
 $shadow-blur: 2px;
 
+$border-thickness: 1px;
+$border-radius: 2px;
+
 // Colors
 
 $color-primary: #6d4c41;
 $color-primary-dark: #4c352d;
-$color-secondary: #4f79d1;
+$color-secondary: #3460bd;
 $color-subtle: #c5c5c5;
 $color-subtle-dark:#7c7c7c;
 $color-neutral: #000000;

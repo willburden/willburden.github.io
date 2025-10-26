@@ -1,8 +1,8 @@
 ---
 import type { GetStaticPaths } from "astro";
-import { getCollection, render, type CollectionEntry } from "astro:content";
+import { getCollection, type CollectionEntry } from "astro:content";
 import BaseLayout from "../../layouts/BaseLayout.astro";
-import formatDate from "../../util/formatDate";
+import BlogPost from "../../components/sections/BlogPost.astro";
 
 interface Props {
     post: CollectionEntry<"blog">;
@@ -17,57 +17,8 @@ export const getStaticPaths: GetStaticPaths = async () => {
 };
 
 const { post } = Astro.props;
-const { Content } = await render(post);
 ---
 
 <BaseLayout>
-    <h1>{post.data.title}</h1>
-    <p class="date">{formatDate(post.data.pubDate)}</p>
-    <ul class="tags">
-        <li><a href="#">technology</a></li>
-        <li><a href="#">web</a></li>
-        <li><a href="#">tutorial</a></li>
-    </ul>
-    <div class="prose">
-        <Content />
-    </div>
+    <BlogPost {post} />
 </BaseLayout>
-
-<style lang="scss">
-    @use '../../styles/_theme' as *;
-
-    h1, .tags {
-        margin: 0;
-    }
-
-    h1 {
-        font-size: $size-xl;
-    }
-
-    .date {
-        margin-block: $space-sm;
-        
-        @include font-technical;
-        // color: $color-subtle-dark;
-    }
-
-    .tags {
-        margin-bottom: 0;
-
-        li {
-            display: inline-block;
-            padding: $space-sm;
-            border: 1px solid $color-subtle;
-            border-radius: 2px;
-            box-shadow: 0 $shadow-offset $color-subtle;
-        }
-    }
-</style>
-
-<style lang="scss" is:global>
-    @use '../../styles/_theme' as *;
-
-    .prose {
-        line-height: $size-xl;
-    }
-</style>

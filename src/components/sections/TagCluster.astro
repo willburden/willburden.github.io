@@ -1,0 +1,21 @@
+<ul {...Astro.props}>
+    <li><a href="#">technology</a></li>
+    <li><a href="#">web</a></li>
+    <li><a href="#">tutorial</a></li>
+</ul>
+
+<style lang="scss">
+    @use '../../styles/_theme' as *;
+
+    ul {
+        padding-inline-start: 0;
+
+        li {
+            display: inline-block;
+            padding: $space-sm;
+            border: $border-thickness solid $color-subtle;
+            border-radius: $border-radius;
+            box-shadow: 0 $shadow-offset $color-subtle;
+        }
+    }
+</style>
