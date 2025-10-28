@@ -2,6 +2,9 @@
     <li><a href="#">technology</a></li>
     <li><a href="#">web</a></li>
     <li><a href="#">tutorial</a></li>
+    <li><a href="#">tag</a></li>
+    <li><a href="#">another tag</a></li>
+    <li><a href="#">last one</a></li>
 </ul>
 
 <style lang="scss">
@@ -10,13 +13,23 @@
     ul {
         padding-inline-start: $space-md;
 
+        overflow-x: scroll;
+        text-wrap: nowrap;
+        -ms-overflow-style: none;  /* Internet Explorer 10+ */
+        scrollbar-width: none;  /* Firefox, Safari 18.2+, Chromium 121+ */
+
+        ::-webkit-scrollbar {
+            display: none;
+        }
+
         li {
             display: inline-block;
             padding: $space-sm;
+            margin-block-end: 0;
 
             border: $border-thickness solid $color-subtle;
             border-radius: $border-radius;
-            box-shadow: 0 2px $color-subtle;
+            box-shadow: 0 $border-thickness $color-subtle;
         }
     }
 </style>

@@ -1,6 +1,4 @@
 ---
-import '../styles/prose.scss';
-
 import { render, type CollectionEntry } from 'astro:content'
 import formatDate from '../util/formatDate';
 import TagCluster from './TagCluster.astro';
@@ -21,7 +19,7 @@ const { Content } = await render(post);
         <h1>{post.data.title}</h1>
         <p>{pubDate}</p>
         {post.data.cover !== undefined &&
-            <Image class="cover" src={post.data.cover} alt={post.data.coverAlt ?? null} />
+            <Image src={post.data.cover} alt={post.data.coverAlt ?? null} />
         }
         <TagCluster />
     </header>
