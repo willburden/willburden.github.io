@@ -1,16 +1,25 @@
-<ul {...Astro.props}>
-    <li><a href="#">technology</a></li>
-    <li><a href="#">web</a></li>
-    <li><a href="#">tutorial</a></li>
-    <li><a href="#">tag</a></li>
-    <li><a href="#">another tag</a></li>
-    <li><a href="#">last one</a></li>
-</ul>
+---
+interface Props {
+    tags: string[],
+}
+
+const { tags } = Astro.props;
+---
+
+{tags.length > 0 &&
+    <ul>
+        {tags.map(tag => (
+            <li><a href="#">{tag}</a></li>
+        ))}
+    </ul>
+}
 
 <style lang="scss">
     @use '../styles/_theme' as *;
 
     ul {
+        margin-block: 0;
+        margin-block-end: calc($space-md - $space-sm);
         padding-block: $space-sm;
         padding-inline: $space-md;
 
@@ -27,11 +36,15 @@
         li {
             display: inline-block;
             margin-block: 0;
-            padding: $space-sm;
+            padding: $space-xs;
 
             border: $border-thickness solid $color-subtle;
             border-radius: $border-radius;
             box-shadow: 0 $shadow-offset $color-subtle;
+
+            &:not(:last-child) {
+                margin-inline-end: $space-xs;
+            }
         }
     }
 </style>

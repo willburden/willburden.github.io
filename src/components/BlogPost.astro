@@ -17,11 +17,14 @@ const { Content } = await render(post);
 <article>
     <header>
         <h1>{post.data.title}</h1>
+        {post.data.subtitle &&
+            <h2>{post.data.subtitle}</h2>
+        }
         <p>{pubDate}</p>
         {post.data.cover !== undefined &&
             <Image src={post.data.cover} alt={post.data.coverAlt ?? null} />
         }
-        <TagCluster />
+        <TagCluster tags={post.data.tags} />
     </header>
     <div class="prose">
         <Content />
@@ -32,10 +35,8 @@ const { Content } = await render(post);
     @use '../styles/_theme' as *;
 
     header {
-        margin-bottom: calc($space-md - $space-sm);
-
         > * {
-            @include space-between($space-sm);
+            @include space-between($space-xs);
         }
 
         h1 {
@@ -50,6 +51,10 @@ const { Content } = await render(post);
             padding: 0;
             margin: 0;
             border-radius: 0;
+
+            &:last-child {
+                margin-block-end: $space-md;
+            }
         }
     }
 </style>

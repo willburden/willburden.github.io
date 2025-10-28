@@ -1,5 +1,5 @@
 ---
-title: 'Building a blog with Astro and Sass'
+title: 'Walking'
 pubDate: 2025-10-23
 cover: '../media/walking-in-woods.jpg'
 coverAlt: 'A photo of someone walking through woods, taken from a distance behind. There are bright green and yellow leaves.'

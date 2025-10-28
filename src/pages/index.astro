@@ -1,6 +1,7 @@
 ---
 import { getCollection } from "astro:content";
 import BaseLayout from "../layouts/BaseLayout.astro";
+import formatDate from "../util/formatDate";
 
 const posts = await getCollection("blog");
 ---
@@ -11,7 +12,7 @@ const posts = await getCollection("blog");
         {posts.map((post) => (
             <li>
                 <a href={`/posts/${post.id}/`}>
-                    {post.data.title} ({post.data.pubDate.toDateString()})
+                    {post.data.title} ({formatDate(post.data.pubDate)})
                 </a>
             </li>
         ))}

@@ -27,7 +27,7 @@ p, .prose {
 }
 
 li {
-    @include space-between($space-sm);
+    @include space-between($space-xs);
 }
 
 a {
