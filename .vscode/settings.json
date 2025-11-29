@@ -1,6 +1,0 @@
-{
-    "files.associations": {
-        "*.css": "tailwindcss"
-    },
-    "html.customData": ["./node_modules/@awesome.me/webawesome/dist/vscode.html-custom-data.json"]
-}
