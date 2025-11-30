@@ -22,7 +22,9 @@ const { Content } = await render(post);
         }
         <p>{pubDate}</p>
         {post.data.cover !== undefined &&
-            <Image src={post.data.cover} alt={post.data.coverAlt ?? null} />
+            <Image
+                src={post.data.cover} alt={post.data.coverAlt ?? null}
+                priority />
         }
         <TagCluster tags={post.data.tags} />
     </header>
