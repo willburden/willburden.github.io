@@ -1,14 +1,14 @@
 ---
-title: "Aldous Harding: Party"
+title: "Twain: Noon"
 subtitle: Album review
-pubDate: 2025-10-28
+pubDate: 2025-12-16
 bandcamp:
-    album: 3639187362
-    tracks: 9
+    album: 826228865
+    tracks: 13
 tags:
     - music
     - review
-    - Aldous Harding
+    - Twain
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non lorem diam. Quisque vulputate nibh sodales eros pretium tincidunt. Aenean porttitor efficitur convallis. Nulla sagittis finibus convallis. Phasellus in fermentum quam, eu egestas tortor. Maecenas ac mollis leo. Integer maximus eu nisl vel sagittis.

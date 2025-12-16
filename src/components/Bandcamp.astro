@@ -1,0 +1,40 @@
+---
+interface Props {
+    album: number;
+    tracks?: number;
+}
+
+const { album, tracks = 5 } = Astro.props;
+---
+
+<iframe
+    style=`--num-tracks: ${tracks};`
+    src={`https://bandcamp.com/EmbeddedPlayer/album=${album}/size=large/bgcol=ffffff/linkcol=000000/transparent=true/`}
+    seamless
+></iframe>
+
+<style lang="scss">
+    @use '../styles/tokens' as *;
+
+    $constant-height: 115px;
+    $height-per-track: 32px;
+
+    iframe {
+        width: $aside-width;
+        height: auto;
+        aspect-ratio: 1;
+        border: 0;
+
+        display: block;
+        margin-block-start: $space-xs;
+
+        @media (min-width: calc(2 * $aside-width)) {
+            margin-block-start: 0;
+        }
+
+        @media (min-width: $full-width) {
+            height: calc($aside-width + $constant-height + $height-per-track * var(--num-tracks));
+            aspect-ratio: auto;
+        }
+    }
+</style>

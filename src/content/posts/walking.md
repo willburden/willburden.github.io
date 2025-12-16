@@ -1,8 +1,9 @@
 ---
 title: 'Walking'
 pubDate: 2025-10-23
-cover: '../media/walking-in-woods.jpg'
-coverAlt: 'A photo of someone walking through woods, taken from a distance behind. There are bright green and yellow leaves.'
+hero:
+    image: '../media/walking-in-woods.jpg'
+    alt: 'A photo of someone walking through woods, taken from a distance behind. There are bright green and yellow leaves.'
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non lorem diam. Quisque vulputate nibh sodales eros pretium tincidunt. Aenean porttitor efficitur convallis. Nulla sagittis finibus convallis. Phasellus in fermentum quam, eu egestas tortor. Maecenas ac mollis leo. Integer maximus eu nisl vel sagittis.

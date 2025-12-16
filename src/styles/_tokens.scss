@@ -17,6 +17,10 @@ $space-lg: 2rem;
     }
 }
 
+$content-width: 650px;
+$aside-width: 300px;
+$full-width: calc($content-width + $aside-width + 3 * $space-md);
+
 // Typography
 
 $font-sans: "Rubik", sans-serif;
@@ -41,6 +45,11 @@ $size-2xl: 2.4rem;
     font-family: $font-sans;
     font-weight: 300;
     font-style: normal;
+
+    a {
+        color: inherit;
+        font-weight: normal;
+    }
 }
 
 @mixin font-content {

@@ -1,0 +1,27 @@
+<aside>
+    <div>
+        <slot />
+    </div>
+</aside>
+
+<style lang="scss">
+    @use "../styles/tokens" as *;
+
+    aside {
+        @media (min-width: calc(2 * $aside-width)) {
+            float: right;
+        }
+
+        @media (min-width: $full-width) {
+            position: relative;
+        }
+    }
+
+    div {
+        @media (min-width: $full-width) {
+            position: absolute;
+            width: $aside-width;
+            right: calc(-1 * $space-md - $aside-width);
+        }
+    }
+</style>

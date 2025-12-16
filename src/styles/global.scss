@@ -1,4 +1,4 @@
-@use './_theme' as *;
+@use './_tokens' as *;
 
 * {
     box-sizing: border-box;
@@ -13,7 +13,6 @@
 }
 
 h1, h2, h3, h4, h5, h6, p {
-    padding-inline: $space-md;
     @include space-between($space-md);
 }
 
@@ -23,7 +22,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p, .prose {
-    line-height: $size-xl;
+    line-height: 1.8;
 }
 
 li {
@@ -31,7 +30,6 @@ li {
 }
 
 a {
-    font-weight: bold;
     color: $color-secondary;
     text-decoration: underline;
     text-decoration-thickness: $underline-thickness;

@@ -1,6 +1,7 @@
 ---
 import LinkFonts from '../components/meta/LinkFonts.astro';
 import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
 import '../styles/_normalise.scss';
 import '../styles/global.scss';
 ---
@@ -8,7 +9,7 @@ import '../styles/global.scss';
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="generator" content={Astro.generator} />
 		<title>willburden.github.io</title>
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
@@ -17,18 +18,52 @@ import '../styles/global.scss';
 	</head>
 	
 	<body>
-		<Header />
-		
-		<main>
-        	<slot />
-		</main>
+		<div class="columns">
+			<div></div>
+			<div class="content">
+				<Header />
+				<main>
+					<slot />
+				</main>
+				<Footer />
+			</div>
+			<div class="aside"></div>
+			<div></div>
+		</div>
 	</body>
 </html>
 
 <style lang="scss">
-	@use '../styles/_theme' as *;
+	@use '../styles/_tokens' as *;
 
-	main {
-		padding: $space-lg 0;
+	.columns {
+		display: flex;
+		flex-direction: row;
+		justify-content: start;
+
+		> :first-child {
+			flex: 1;
+		}
+
+		.content {
+			flex: none;
+			
+			max-width: $content-width;
+			width: 100%;
+
+			padding-inline: $space-md;
+		}
+
+		.aside {
+			flex: 0;
+
+			@media (min-width: $full-width) {
+				flex: 0 1 calc($aside-width + $space-md);
+			}
+		}
+
+		> :last-child {
+			flex: 1;
+		}
 	}
 </style>

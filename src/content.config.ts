@@ -8,8 +8,14 @@ const blog = defineCollection({
         title: z.string(),
         subtitle: z.string().optional(),
         pubDate: z.coerce.date(),
-        cover: image().optional(),
-        coverAlt: z.string().optional(),
+        hero: z.strictObject({
+            image: image(),
+            alt: z.string().optional(),
+        }).optional(),
+        bandcamp: z.strictObject({
+            album: z.number(),
+            tracks: z.number().optional(),
+        }).optional(),
         tags: z.array(
             z.string(),
         ).default([]),
