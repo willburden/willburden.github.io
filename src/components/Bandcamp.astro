@@ -11,6 +11,7 @@ const { album, tracks = 5 } = Astro.props;
     style=`--num-tracks: ${tracks};`
     src={`https://bandcamp.com/EmbeddedPlayer/album=${album}/size=large/bgcol=ffffff/linkcol=000000/transparent=true/`}
     seamless
+    sandbox="allow-scripts allow-same-origin"
 ></iframe>
 
 <style lang="scss">
@@ -30,8 +31,7 @@ const { album, tracks = 5 } = Astro.props;
         margin-block-start: $space-xs;
 
         @media (min-width: $single-width) {
-            margin-block-start: 0;
-            max-width: none;
+            max-width: 40vw;
         }
 
         @media (min-width: $full-width) {

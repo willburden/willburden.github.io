@@ -1,8 +1,8 @@
 ---
 import type { InferEntrySchema } from 'astro:content'
 import { Image } from 'astro:assets';
-import formatDate from '../../util/formatDate';
-import PostTags from './PostTags.astro';
+import * as formatDate from '../../util/formatDate';
+import TagList from '../TagList.astro';
 import Aside from '../Aside.astro';
 import Bandcamp from '../Bandcamp.astro';
 
@@ -12,7 +12,7 @@ interface Props {
 
 const { data } = Astro.props;
 
-const pubDate = formatDate(data.pubDate);
+const pubDate = formatDate.verbose(data.pubDate);
 ---
 
 <header>
@@ -22,6 +22,7 @@ const pubDate = formatDate(data.pubDate);
             <h2>{data.subtitle}</h2>
         }
         <p>{pubDate}</p>
+        <TagList tags={data.tags} />
     </div>
     {data.hero?.image !== undefined &&
         <Image
@@ -31,7 +32,6 @@ const pubDate = formatDate(data.pubDate);
     {data.bandcamp?.album !== undefined &&
         <Aside><Bandcamp {...data.bandcamp} /></Aside>
     }
-    <PostTags tags={data.tags} />
 </header>
 
 <style lang="scss">
@@ -39,39 +39,66 @@ const pubDate = formatDate(data.pubDate);
 
     header {
         position: relative;
-
+        margin-block-end: $space-md;
+        line-height: $line-height-md;
+        
         > * {
-            @include space-between($space-xs);
-
-            &:last-child {
-                margin-block-end: $space-md;
-            }
+            margin-block: 0;
         }
-
+            
         h1 {
             font-size: $size-xl;
         }
 
         .frontmatter {
-            margin-block-end: 0;
+            margin-block-end: $space-sm;
 
             > * {
                 margin-block: 0;
             }
 
-            &:last-child {
-                margin-block-end: $space-md;
+            h2 {
+                font-size: $size-md;
+            }
+
+            p {
+                @include font-technical;
+                line-height: $line-height-md;
             }
         }
-
-        p {
-            @include font-technical;
-        }
-
-        img {
-            margin-block-end: 0;
-            padding: 0;
-            border-radius: 0;
-        }
     }
+
+    // header {
+    //     position: relative;
+    //     margin-block-end: $space-md;
+    //     line-height: $line-height-md;
+
+    //     > * {
+    //         @include margin-between($space-xs);
+    //     }
+
+    //     h1 {
+    //         font-size: $size-xl;
+    //     }
+
+    //     .frontmatter {
+    //         > * {
+    //             margin-block: 0;
+    //         }
+    //     }
+
+    //     h2 {
+    //         font-size: $size-md;
+    //     }
+
+    //     p {
+    //         @include font-technical;
+    //     }
+
+    //     img {
+    //         margin-block-end: 0;
+    //         padding: 0;
+    //         border-radius: 0;
+    //     }
+    // }
 </style>

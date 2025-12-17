@@ -36,6 +36,14 @@ import '../styles/global.scss';
 <style lang="scss">
 	@use '../styles/_tokens' as *;
 
+	:root {
+		scrollbar-gutter: stable both-edges;
+	}
+
+	body, .columns {
+		min-height: 100vh;
+	}
+
 	.columns {
 		display: flex;
 		flex-direction: row;
@@ -55,6 +63,13 @@ import '../styles/global.scss';
 
 			@media (min-width: $full-width) {
 				padding-inline-end: $space-lg;
+			}
+
+			display: flex;
+			flex-direction: column;
+
+			main {
+				flex: 1;
 			}
 		}
 

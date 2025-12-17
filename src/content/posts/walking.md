@@ -6,6 +6,7 @@ hero:
     alt: 'A photo of someone walking through woods, taken from a distance behind. There are bright green and yellow leaves.'
 ---
 
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non lorem diam. Quisque vulputate nibh sodales eros pretium tincidunt. Aenean porttitor efficitur convallis. Nulla sagittis finibus convallis. Phasellus in fermentum quam, eu egestas tortor. Maecenas ac mollis leo. Integer maximus eu nisl vel sagittis.
 
 # Aliquam ante urna

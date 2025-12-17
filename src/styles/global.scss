@@ -13,7 +13,7 @@
 }
 
 h1, h2, h3, h4, h5, h6, p {
-    @include space-between($space-md);
+    @include margin-between($space-md);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -22,17 +22,21 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p, .prose {
-    line-height: 1.8;
+    line-height: $line-height-lg;
 }
 
 li {
-    @include space-between($space-xs);
+    @include margin-between($space-xs);
 }
 
 a {
     color: $color-secondary;
     text-decoration: underline;
     text-decoration-thickness: $underline-thickness;
+}
+
+a[href^="/tag/"] {
+    color: $color-neutral;
 }
 
 img {

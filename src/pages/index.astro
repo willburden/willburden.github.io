@@ -1,24 +1,67 @@
 ---
 import { getCollection } from "astro:content";
 import BaseLayout from "../layouts/BaseLayout.astro";
-import formatDate from "../util/formatDate";
+import TagList from "../components/TagList.astro";
+import * as formatDate from "../util/formatDate";
 
 const posts = await getCollection("blog");
 
-posts.sort((a, b) => a.data.pubDate.getTime() - b.data.pubDate.getDate())
-
-console.log(posts);
+posts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
 ---
 
 <BaseLayout>
     <h1>Posts</h1>
-    <ul>
-        {posts.map((post) => (
-            <li>
-                <a href={`/posts/${post.id}/`}>
-                    {post.data.title} ({formatDate(post.data.pubDate)})
-                </a>
-            </li>
-        ))}
-    </ul>
+    <div class="collection">
+        {posts.map((post) => (<>
+            <p class="date">{formatDate.compact(post.data.pubDate)}</p>
+            <div class="item">
+                <p><a href={`/posts/${post.id}/`}>
+                    {post.data.title}
+                    {post.data.subtitle &&
+                        <>— {post.data.subtitle}</>
+                    }
+                </a></p>
+                {post.data.tags.length > 0 &&
+                    <TagList tags={post.data.tags} />
+                }
+            </div>
+        </>))}
+    </div>
 </BaseLayout>
+
+<style lang="scss">
+    @use '../styles/tokens' as *;
+
+    .collection {
+        margin-inline: $space-md;
+        line-height: $line-height-lg;
+        text-align: center;
+
+        p {
+            margin-block: 0;
+        }
+
+        .date {
+            @include font-technical;
+        }
+
+        .item:not(:last-child) {
+            margin-block-end: $size-lg;
+        }
+    }
+
+    @media (min-width: $single-width) {
+        .collection {
+            margin-inline: $space-lg;
+            text-align: left;
+
+            display: grid;
+            gap: $space-md $space-md;
+            grid-template: auto auto / min-content auto;
+
+            .date {
+                text-align: right;
+            }
+        }
+    }
+</style>

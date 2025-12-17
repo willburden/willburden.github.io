@@ -1,0 +1,27 @@
+---
+interface Props {
+    tags: string[],
+}
+
+const { tags } = Astro.props;
+---
+
+{tags.length > 0 &&
+    <div>
+        {tags.map(tag => (
+            <span><a href={`/tag/${tag}`}>{tag}</a></span>
+        ))}
+    </div>
+}
+
+<style lang="scss">
+    @use '../styles/_tokens' as *;
+
+    div {
+        margin-top: -$underline-thickness;
+
+        span {
+            @include margin-inline-between($space-xs);
+        }
+    }
+</style>
