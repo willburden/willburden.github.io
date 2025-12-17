@@ -3,8 +3,8 @@ title: "Example album"
 subtitle: Album review
 pubDate: 2025-10-28
 bandcamp:
-    album: 3639187362
-    tracks: 9
+    album: 826228865
+    tracks: 13
 tags:
     - music
     - review
