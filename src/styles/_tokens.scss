@@ -19,6 +19,8 @@ $space-lg: 2rem;
 
 $content-width: 650px;
 $aside-width: 300px;
+
+$single-width: calc(2 * ($aside-width + $space-md));
 $full-width: calc($content-width + $aside-width + 3 * $space-md);
 
 // Typography

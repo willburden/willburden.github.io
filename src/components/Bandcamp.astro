@@ -20,7 +20,8 @@ const { album, tracks = 5 } = Astro.props;
     $height-per-track: 32px;
 
     iframe {
-        width: $aside-width;
+        width: 100%;
+        max-width: 50vh;
         height: auto;
         aspect-ratio: 1;
         border: 0;
@@ -28,7 +29,7 @@ const { album, tracks = 5 } = Astro.props;
         display: block;
         margin-block-start: $space-xs;
 
-        @media (min-width: calc(2 * $aside-width)) {
+        @media (min-width: $single-width) {
             margin-block-start: 0;
         }
 
