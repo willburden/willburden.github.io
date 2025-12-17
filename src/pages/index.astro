@@ -45,8 +45,10 @@ posts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
             @include font-technical;
         }
 
-        .item:not(:last-child) {
-            margin-block-end: $size-lg;
+        @media (max-width: $single-width) {
+            .item:not(:last-child) {
+                margin-block-end: $size-lg;
+            }
         }
     }
 
@@ -57,7 +59,7 @@ posts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
 
             display: grid;
             gap: $space-md $space-md;
-            grid-template: auto auto / min-content auto;
+            grid-template: auto auto / auto auto;
 
             .date {
                 text-align: right;

@@ -28,9 +28,13 @@ const monthName = (month: number) => {
     ][month];
 };
 
+const shortMonthName = (month: number) => {
+    return monthName(month).substring(0, 3);
+}
+
 export const compact = (date: Date) => {
     const day = date.getDate();
-    const month = monthName(date.getMonth());
+    const month = shortMonthName(date.getMonth());
     const year = date.getFullYear();
     
     return `${day}/${month}/${year}`;
