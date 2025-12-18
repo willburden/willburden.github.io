@@ -45,7 +45,7 @@ a[href^="/tag/"] {
     text-decoration: underline;
 }
 
-a[href^="/posts/"] {
+a[href^="/post/"] {
     @include font-display;
     color: $color-neutral;
     font-weight: bold;
