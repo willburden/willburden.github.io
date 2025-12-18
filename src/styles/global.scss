@@ -31,12 +31,23 @@ li {
 
 a {
     color: $color-secondary;
-    text-decoration: underline;
-    text-decoration-thickness: $underline-thickness;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+        text-decoration-thickness: $underline-thickness;
+    }
 }
 
 a[href^="/tag/"] {
+    @include font-technical;
     color: $color-neutral;
+}
+
+a[href^="/posts/"] {
+    @include font-display;
+    color: $color-neutral;
+    font-weight: bold;
 }
 
 img {

@@ -18,10 +18,13 @@ const { tags } = Astro.props;
     @use '../styles/_tokens' as *;
 
     div {
-        margin-top: -$underline-thickness;
+        margin-block-start: -2px;
 
         span {
-            @include margin-inline-between($space-xs);
+            &:not(:last-child)::after {
+                content: "•";
+                margin-inline: 0.3rem;
+            }
         }
     }
 </style>
