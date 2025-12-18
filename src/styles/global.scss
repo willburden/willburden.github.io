@@ -42,6 +42,7 @@ a {
 a[href^="/tag/"] {
     @include font-technical;
     color: $color-neutral;
+    text-decoration: underline;
 }
 
 a[href^="/posts/"] {
