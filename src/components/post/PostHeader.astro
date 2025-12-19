@@ -2,12 +2,12 @@
 import type { InferEntrySchema } from 'astro:content'
 import { Image } from 'astro:assets';
 import * as formatDate from '../../util/formatDate';
-import TagList from '../TagList.astro';
+import PostTags from '../PostTags.astro';
 import Aside from '../Aside.astro';
 import Bandcamp from '../Bandcamp.astro';
 
 interface Props {
-    data: InferEntrySchema<"blog">;
+    data: InferEntrySchema<"posts">;
 }
 
 const { data } = Astro.props;
@@ -22,7 +22,7 @@ const pubDate = formatDate.verbose(data.pubDate);
             <h2>{data.subtitle}</h2>
         }
         <p>{pubDate}</p>
-        <TagList tags={data.tags} />
+        <PostTags tags={data.tags} />
     </div>
     {data.hero?.image !== undefined &&
         <Image

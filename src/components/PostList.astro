@@ -1,0 +1,70 @@
+---
+import type { CollectionEntry } from 'astro:content'
+import PostTags from "../components/PostTags.astro";
+import * as formatDate from "../util/formatDate";
+
+interface Props {
+    posts: CollectionEntry<"posts">[],
+}
+
+const { posts } = Astro.props;
+
+posts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+---
+
+<div class="collection">
+    {posts.map((post) => (<>
+        <p class="date">{formatDate.compact(post.data.pubDate)}</p>
+        <div class="item">
+            <p><a href={`/post/${post.id}/`}>
+                {post.data.title}
+                {post.data.subtitle &&
+                    <>— {post.data.subtitle}</>
+                }
+            </a></p>
+            {post.data.tags.length > 0 &&
+                <PostTags tags={post.data.tags} />
+            }
+        </div>
+    </>))}
+</div>
+
+<style lang="scss">
+    @use '../styles/tokens' as *;
+
+    .collection {
+        margin-inline: $space-md;
+        line-height: $line-height-lg;
+        text-align: center;
+
+        p {
+            margin-block: 0;
+        }
+
+        .date {
+            @include font-technical;
+            text-wrap: nowrap;
+        }
+
+        @media (max-width: $single-width) {
+            .item:not(:last-child) {
+                margin-block-end: $size-lg;
+            }
+        }
+    }
+
+    @media (min-width: $single-width) {
+        .collection {
+            margin-inline: $space-lg;
+            text-align: left;
+
+            display: grid;
+            gap: $space-md $space-md;
+            grid-template: auto auto / min-content auto;
+
+            .date {
+                text-align: right;
+            }
+        }
+    }
+</style>

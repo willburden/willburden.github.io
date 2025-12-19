@@ -1,11 +1,12 @@
 ---
-title: 'Walking'
+title: 'Blog post'
 pubDate: 2025-10-23
 hero:
     image: '../media/walking-in-woods.jpg'
     alt: 'A photo of someone walking through woods, taken from a distance behind. There are bright green and yellow leaves.'
+tags:
+    - life
 ---
-
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non lorem diam. Quisque vulputate nibh sodales eros pretium tincidunt. Aenean porttitor efficitur convallis. Nulla sagittis finibus convallis. Phasellus in fermentum quam, eu egestas tortor. Maecenas ac mollis leo. Integer maximus eu nisl vel sagittis.
 
