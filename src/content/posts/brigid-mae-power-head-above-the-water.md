@@ -29,7 +29,7 @@ For example, the album opens with cheery country song ‘On A City Night’, ful
 > Country trees in the night
 > Their shadows give me a fright"
 
-This could be an admiring love song, or it could be a subtle admonition: to my ears, it often sounds like a moment of disconnect, where Power sees her interlocutor as a bit naive and overexcited. Her looking at his “eyes so pure” sounds a little conscious and detached, like she’s not really feeling seen in the conversation. The chorus has Power repeatedly singing “On a city night,” which at first glance suggests a boisterous mood of late-night adventure and whimsy. But maybe there’s a note of irony too, acknowledging that such nights out often also contain a lot of inane, searching conversations and buried feelings.
+This could be an affectionate love song, or it could be a subtle admonition: to my ears, it often sounds like a moment of disconnect, where Power sees her interlocutor as a bit naive and overexcited. Her looking at his “eyes so pure” sounds a little conscious and detached, like she’s not really feeling seen in the conversation. The chorus has Power repeatedly singing “On a city night,” which at first glance suggests a boisterous mood of late-night adventure and whimsy. But maybe there’s a note of irony too, acknowledging that such nights out often also contain a lot of inane, searching conversations and buried feelings.
 
 > I can’t quite believe
 > How easy it’s been for you
@@ -52,7 +52,7 @@ In ‘I Was Named After You’, a song which starts off quite peacefully but bui
 > In its other form -- vulnerability?
 > Of that I have plenty
 
-Strength and vulnerability, here, are two forms of the same material. This is a duality that I think fundamentally characterises Power’s music, as much of its emotional heft comes from showing the close association between the two ideas. Each requires and cultivates the other -- to be vulnerable you need the courage to risk embarrassment or pain, and to be strong you need to know yourself, to be aware and in control of your flaws. Power’s lyrics are urgently, ardently vulnerable; they have the intensity of someone who really needs to be heard and understood.
+Strength and vulnerability, here, are two forms of the same material. This is a duality that I think fundamentally characterises Power’s music, as much of its emotional heft comes from showing the close association between the two ideas. Each requires and cultivates the other -- to be vulnerable you need the courage to risk embarrassment or pain, and to be strong you need to know yourself, to be aware and in control of your flaws. Power’s lyrics are urgently, ardently vulnerable; they have the intensity of someone who really needs to be heard and understood. It's encapsulated even in the album's title: “head above the water” implies a great struggle to stay afloat, but it does actually describe a moment of triumph over that struggle. 
 
 I think this is best exemplified in the brilliant song ‘I Had To Keep My Circle Small’. It’s a song about a breakup of some sort, a relationship where the speaker has had to distance themselves, and it’s both tragic, in exploring the pain and the problems that caused this parting, and at the same time empowering. Power’s character has fought for herself, has carved out the space that she needs, and she isn’t regretting that it happened, but explaining why it had to.
 
@@ -69,7 +69,7 @@ Spread out across the course of the song are all of the things that Power tells 
 > I needed partiality
 > I needed you to see me
 
-I love this list of needs: the earnestness of wanting a team, the delicate specificity of wanting to be seen. And most of all the need to be favoured, to be treated with partiality. I think that’s a wonderful and honest thing to ask for from someone. It’s also so universal -- I think these lines could describe the fundamental needs behind practically any relationship breakdown anyone’s been through. It’s almost like a version of the Ho’oponopono forgiveness prayer\* but for breakups.
+I love this list of demands: the earnestness of needing a team, the delicate specificity of needing to be seen. And most of all the need to be favoured, to be treated with partiality. I think that’s a wonderful and honest thing to ask for from someone. It’s also so universal -- I think these lines could describe the fundamental needs behind practically any relationship breakdown anyone’s been through. It’s almost like a version of the Ho’oponopono forgiveness prayer\* but for breakups.
 
 The past tense gives it a feeling of emotional litigation, like a case is being made after the fact. All of these things may no longer be strictly useful to anyone, they may only refer to a defunct relationship, but it’s important somehow that the detail of what happened is told. One of the great things here is how Power makes a value of precision. Just the sheer syllable count of “partiality” feels metrically improbable, but in Power’s songwriting voice such a bulky word sounds natural because it’s the right word for how she feels (and she actually ends up adding a few more syllables of vocal flourish).
 
