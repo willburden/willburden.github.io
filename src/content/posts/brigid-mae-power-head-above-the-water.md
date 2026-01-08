@@ -103,11 +103,11 @@ The first verse is repeated at the end, meaning the final words are that blessin
 
 In wishing luck with past losses, Power invokes the idea that our pasts are something we have to live with, and that it can be an ongoing battle. But she sounds hopeful. It’s a particular version of peace or happiness, an optimism that we can learn to be comfortable with our pasts, our pain, and our vulnerability, and still get to know and enjoy our strength.
 
----
+<hr class="invisible"/>
 
 ## Endnotes
 
-I went to see Brigid Mae Power performing live in Newcastle! It was completely captivating and I have to reiterate that she is such a brilliant singer. She played guitar, with Ruth Clinton of Landless providing Mellotron and backing vocals, and their harmonising was incredible. Anyway, needless to say, I enjoyed it very much.
+I went to see Brigid Mae Power performing in Newcastle! It was completely captivating and I have to reiterate that she is such a brilliant singer. She played guitar, with Ruth Clinton of [Landless](https://landless.bandcamp.com/) providing Mellotron and backing vocals, and their harmonising was incredible. Anyway, needless to say, I enjoyed it very much.
 
 I also got this T-shirt that Power painted!
 
