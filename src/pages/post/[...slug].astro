@@ -2,7 +2,7 @@
 import type { GetStaticPaths } from "astro";
 import { getCollection, type CollectionEntry } from "astro:content";
 import BaseLayout from "../../layouts/BaseLayout.astro";
-import BlogPost from "../../components/post/Post.astro";
+import BlogPost from "../../components/Post.astro";
 
 interface Props {
     post: CollectionEntry<"posts">;

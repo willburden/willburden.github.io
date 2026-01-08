@@ -12,7 +12,7 @@
     font-size: $size-md;
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h1, h2, h3, h4, h5, h6, p, blockquote {
     @include margin-between($space-md);
 }
 
@@ -55,4 +55,25 @@ img {
     display: block;
     border-radius: $border-radius;
     box-shadow: 0 $shadow-offset $shadow-blur $color-subtle;
+}
+
+ul, blockquote {
+    margin-inline: 0;
+    padding-inline: $space-lg;
+}
+
+blockquote {
+    @include font-technical;
+
+    p {
+        white-space: pre;
+    }
+}
+
+hr {
+    margin-block: $space-lg;
+    height: $border-thickness;
+    border: none;
+    background-color: $color-subtle;
+    width: 25%;
 }
