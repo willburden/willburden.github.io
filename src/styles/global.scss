@@ -25,6 +25,12 @@ p, .prose {
     line-height: $line-height-lg;
 }
 
+.prose {
+    h1, h2, h3, h4, h5, h6 {
+        margin-block-start: $space-lg;
+    }
+}
+
 li {
     @include margin-between($space-xs);
 }
