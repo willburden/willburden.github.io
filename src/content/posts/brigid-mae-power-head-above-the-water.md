@@ -9,15 +9,15 @@ tags:
     - review
 ---
 
-*Head Above the Water* was the first album I heard by Brigid Mae Power, and I came across it without any particular connection; I think it just surfaced from some mysterious algorithm. But it’s come to be one of my favourite albums, a reliable go-to for evocative city walks and train journey window-watching. Part of what’s so compelling about it for me, and what I think makes it unique and worth digging into, is the distinctive way Power writes about emotion.
+*Head Above the Water* was the first album I heard by Brigid Mae Power, and I came across it without any particular connection; I think it just surfaced from some mysterious algorithmic depth. But it’s come to be one of my favourite albums, one I'll reliably go to for evocatively walking around in cities or watching out of train windows. Part of what’s so compelling about it for me, and what I think makes it unique, is the distinctive way Power writes about emotion.
 
-This is a collection of nine original songs, plus a very well-chosen cover of a traditional ballad, ‘The Blacksmith’. The music is dreamy, ruminative folk and country, insistently strummed acoustic guitars loping along under a glittery night sky of swirling strings and icy piano chords. It’s often repetitious and open-ended, each song having a strong atmosphere but not necessarily a linear journey.
+This is a collection of nine original songs, plus a cover of a traditional ballad. The music is dreamy, ruminative folk and country, insistently strummed acoustic guitars loping along under a glittery night sky of strings and icy piano chords. It’s often repetitious and open-ended, each song having a strong atmosphere but not necessarily any big section changes or much of a linear journey at all.
 
-It could all suggest panic and confusion, like being swept up in a storm, except that Power’s presence as a singer is so grounding. Her voice is strong and bright, and her melodies are ornamented with nimble arpeggios. Many songs contain sections of wordless vocalisation, and, while these do convey a measure of hurt and lostness, the overwhelming effect is of security and a sense of acceptance, along with the usual laments.
+At times it can feel chaotic, like being swept up in a storm, except that Power’s presence as a singer is so grounding. Her voice is strong and bright, and her melodies are ornamented with nimble arpeggios. Many songs contain wordless sections of vocalisation, and, while these do convey some lostness and hurt, the stronger effect is of security and a sense of acceptance.
 
-What I really want to talk about are the lyrics, because they match this vibe completely. Power has a talent for writing about human feelings in a way that feels truthful and unpretentious. Her songs explore relationships and personal histories by prodding at small moments -- quick observations, gut reactions, fragments of senses and memories -- and then leveraging these to expose something about the currents below.
+What I really want to talk about are the lyrics, because they match this vibe completely. Power has a talent for writing about feelings in a way that feels truthful and unpretentious. Her songs explore relationships and personal histories by prodding at small moments -- quick observations, gut reactions, fragments of senses and memories -- and then leveraging these to expose something about the currents below.
 
-For example, the album opens with cheery country song ‘On A City Night’, full of winding pedal steel, in which somebody immediately answers his own question.
+For example: the album opens with cheery country song ‘On A City Night’, in which somebody immediately answers his own question.
 
 > "City lights or country skies at night
 > Which do you prefer?"
@@ -29,7 +29,7 @@ For example, the album opens with cheery country song ‘On A City Night’, ful
 > Country trees in the night
 > Their shadows give me a fright"
 
-This could be an affectionate love song, or it could be a subtle admonition: to my ears, it often sounds like a moment of disconnect, where Power sees her interlocutor as a bit naive and overexcited. Her looking at his “eyes so pure” sounds a little conscious and detached, like she’s not really feeling seen in the conversation. The chorus has Power repeatedly singing “On a city night,” which at first glance suggests a boisterous mood of late-night adventure and whimsy. But maybe there’s a note of irony too, acknowledging that such nights out often also contain a lot of inane, searching conversations and buried feelings.
+This could be an affectionate love song, or it could be subtly critical: to my ears, it often sounds like a moment of disconnect, where Power sees her interlocutor as a bit naive and overexcited. Her looking at his “eyes so pure” sounds a little conscious and detached, like she’s not really feeling seen in the conversation. The chorus has Power repeatedly singing “On a city night,” which at first glance suggests a boisterous mood of late-night adventure and whimsy. But maybe there’s a note of irony too, acknowledging that such nights out often also contain a lot of inane, searching conversations and buried feelings.
 
 > I can’t quite believe
 > How easy it’s been for you
@@ -39,7 +39,7 @@ This could be an affectionate love song, or it could be a subtle admonition: to 
 > The city suits you
 > The city suits you
 
-This talk of seeing a new side to somebody is, again, potentially double-edged. I will say I think this detachment is just one flavour in the song’s emotional brew, but it’s definitely an interesting, awkward moment for Power to focus on. Maybe she’s exploring an internal struggle felt by her character, as they try to give in to the ideal of a city night but feel a little distant or weighed down.
+This talk of seeing a new side to somebody is, again, potentially double-edged. I will say I think this slight cynicism is just one flavour in the song’s emotional brew, but it’s definitely an interesting, awkward moment for Power to focus on. Maybe she’s exploring an internal struggle felt by her character, as they try to give in to the ideal of a city night but feel a little distant or weighed down.
 
 ---
 
@@ -52,16 +52,16 @@ In ‘I Was Named After You’, Power names an important contrast.
 > In its other form -- vulnerability?
 > Of that I have plenty
 
-Strength and vulnerability, here, are two forms of the same material. This is a duality that I think fundamentally characterises Power’s music, as much of its emotional heft comes from harnessing the close association between the two ideas. In Power's songs, each requires and cultivates the other: vulnerability comes from a willingness to risk embarrassment or pain, and strength comes from knowing yourself, being aware and in control of your flaws.
+This verse puts forward that strength and vulnerability are two forms of the same material. I actually think this is a duality that fundamentally characterises Power’s music, with much of its emotional heft coming from harnessing the close association between the two. In Power's songs, each requires and cultivates the other: vulnerability comes from a willingness to risk embarrassment or pain, and strength comes from knowing yourself, being aware and in control of your flaws.
 
 > And now I’ve no doubt
 > Why I was named after you
 > ‘Cause it’s the vulnerability
 > That did mend the situation in the end
 
-Power’s lyrics are ardently vulnerable. They have the intensity of someone who really needs to be heard and understood. The dual concepts are encapsulated even in the album's title: “head above the water” implies a great struggle to stay afloat, but it does actually describe a moment of triumph over that struggle. 
+Power’s lyrics are ardently vulnerable. They have the intensity of someone who really needs to be heard and understood. It's encapsulated even in the album's title: “head above the water” implies a great struggle to stay afloat, but it does actually describe a moment of triumph over that struggle. 
 
-I think this is best exemplified in the brilliant song ‘I Had To Keep My Circle Small’. It’s a song about a breakup of some kind, a relationship where the speaker has had to distance themselves, and it’s both tragic, in exploring the pain and the problems that caused this parting, and at the same time empowered. Power’s character has fought for herself, has carved out the space that she needs, and she isn’t regretting that it happened, but explaining why it had to.
+I think this is best exemplified in the brilliant song ‘I Had To Keep My Circle Small’. It’s a song about a breakup of some kind, a relationship where the speaker has had to distance themselves, and it’s both tragic, in exploring the pain and the problems that caused this parting, and at the same time, empowered. Power’s character has fought for herself, has carved out what she needs, and she isn’t regretting that it happened, but explaining why it had to.
 
 > I had to keep my circle small
 > Neutrality, I just could not afford
@@ -76,9 +76,9 @@ Spread out across the course of the song are all of the things that Power tells 
 > I needed partiality
 > I needed you to see me
 
-I love this list of demands: the earnestness of needing a team, the delicate specificity of needing to be seen, and the honesty of asking not to be treated equally but with partiality, to be actively favoured. I think that's such a clear way to express an idea that's hard to convey, but is so universal. This list feels like a set of fundamental principles that could apply in some way to practically any relationship; it's almost like a version of the Ho'oponopono forgiveness prayer* but for breakups.
+I love this list of demands: the earnestness of needing a team, the delicate specificity of needing to be seen, and the honesty of asking not to be treated equally but with partiality, to be actively favoured. I think that's such a clear way to express an idea that's hard to convey, but is so universal. This list feels like a set of fundamental principles that could apply in some way to practically any relationship. It's almost like a version of the Ho'oponopono forgiveness prayer* but for breakups.
 
-The past tense gives it a feeling of emotional litigation, like a case is being made after the fact. All of these things may no longer be strictly useful to anyone, in that they only refer to a defunct relationship, but it’s important somehow that the detail of what happened is told. One of the great things here is how Power makes a value of precision. Just the sheer syllable count of “partiality” feels metrically improbable, but in Power’s songwriting voice such a bulky word sounds natural, because it’s the right word for how she feels. (She actually ends up adding even more syllables of vocal flourish!)
+The past tense gives it a feeling of emotional litigation, like a case is being made after the fact. All of these things may no longer be strictly useful to anyone, in that they only refer to a defunct relationship, but it’s important somehow that the detail of what happened is told. One of the great things here is how Power makes a value of precision. Just the sheer syllable count of “partiality” feels metrically improbable, but in Power’s songwriting voice such a bulky word sounds natural, because it’s the right word for how she feels. (And she actually ends up adding a few more syllables of vocal flourish.)
 
 After each need, she emphasises that it’s “not a bad thing at all”. This is the strength that Power associates with vulnerability. Being vulnerable allows you to assert and stand by the things you know about yourself with certainty, and all of Power's songs are imbued with that quality. As much as the music is often sad, it’s not self-pitying or defeated. It’s assured of its point of view, and pushes to be heard, understood, and respected.
 
@@ -102,13 +102,13 @@ The minimal arrangement gives Power full room to scythe up and down through the 
 > His sense of what matters
 > Is really, really strong
 
-There’s actually a bit of a meandering quality to these verses. The ideas don't all clearly form one overarching point. It’s like Power's character has lessened her grip on the hard principles she was defending in ‘I Had To Keep My Circle Small’. There’s less of that tone of litigation; it sounds more like exhaustion, like she’s expressed all of her anger and is finally just sharing unfiltered feelings.
+There’s actually a bit of a meandering quality to these (excellent) verses. The ideas don't all clearly fit together to form one overarching point. It’s like Power's character has lessened her grip on the hard principles she was defending in ‘I Had To Keep My Circle Small’. There’s less of that tone of litigation; it sounds more like exhaustion, like she’s expressed all of her anger and is now simply sharing thoughts and feelings.
 
 And in these unfiltered ideas, the speaker seems to find some common ground with her addressee. She says that she can see their “pain that can’t be helped”. The titular image of one’s “head above the water,” when it finally comes here at the end of the album, doesn’t refer to Power’s own struggle but that of the other person. It could be a recognition that when someone lashes out, it’s often more about their own pain and fear, an attempt to stay afloat.
 
-The first verse is then repeated, meaning the last words are that blessing and implicit goodbye: “I wish you luck with your losses from before.” This ending to me is a beautiful, reconciliatory counterbalance to the more aggrieved tone of some of the songs. The instrumental drifts on, the place of the vocals is taken by a pensive whistle. It’s a moment of resolution that doesn’t negate the pain and searching found elsewhere in the album.
+The first verse is then repeated, meaning the last words are that blessing and implicit goodbye: “I wish you luck with your losses from before.” I think this ending is a note of acceptance and forgiveness. The instrumental drifts on, the place of the vocals is taken by a pensive whistle. It’s a moment of resolution that doesn’t negate the pain and searching found elsewhere in the album.
 
-In wishing luck with past losses, Power invokes the idea that our pasts are something we have to live with, and that it can be an ongoing battle. But she sounds hopeful. It’s a particular version of peace, an optimism that we can learn to be comfortable with our pasts, our pain, and our vulnerability, and still get to know and enjoy our strength.
+In wishing luck with past losses, Power invokes the idea that our pasts are something we have to live with, and that it can be an ongoing battle. But she sounds hopeful. It’s a particular version of peace, not suggesting that we can ever become free of pain, but having optimism that we can learn to be comfortable with our pain, our pasts, and be vulnerable in a way that shows us our real strength.
 
 ## Endnotes
 
