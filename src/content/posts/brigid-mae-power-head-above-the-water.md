@@ -52,7 +52,7 @@ In ‘I Was Named After You’, Power names an important contrast.
 > In its other form -- vulnerability?
 > Of that I have plenty
 
-This verse puts forward that strength and vulnerability are two forms of the same material. I actually think this is a duality that fundamentally characterises Power’s music, with much of its emotional heft coming from harnessing the close association between the two. In Power's songs, each requires and cultivates the other: vulnerability comes from a willingness to risk embarrassment or pain, and strength comes from knowing yourself, being aware and in control of your flaws.
+This verse points out that strength and vulnerability are two forms of the same material. I actually think this is a duality that fundamentally characterises Power’s music, with much of its emotional heft coming from harnessing the close association between the two. In Power's songs, each requires and cultivates the other: vulnerability comes from a willingness to risk embarrassment or pain, and strength comes from knowing yourself, being aware and in control of your flaws.
 
 > And now I’ve no doubt
 > Why I was named after you
