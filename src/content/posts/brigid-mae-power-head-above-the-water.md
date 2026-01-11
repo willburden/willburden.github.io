@@ -13,9 +13,9 @@ tags:
 
 This is Power's third album, released in 2020, a collection of nine original songs, plus a cover of a traditional ballad (the thorny heartbreak of ‘The Blacksmith’). The music is dreamy, ruminative folk, acoustic guitars loping along under a glittery night sky full of buffeting strings and icy piano chords. It's often repetitious and open-ended, not necessarily with any big section changes or much of a linear journey to the songs.
 
-At times it can sound fearful or lost, like you've been swept up in a storm, except that Power's presence as a singer is so grounding. Her singing is confident and expressive, and her melodies are ornamented with nimble arpeggios. Many songs contain sections of wordless vocalisation, which do convey some lostness and some lamentation, but paired with a suprising tone of security and acceptance.
+At times it can sound fearful or lost, like you've been swept up in a storm, except that Power's presence as a singer is so grounding. Her singing is confident and expressive, and her melodies are ornamented with nimble arpeggios. Many songs contain sections of wordless vocalisation, which do convey some lostness and some hurt, but paired with a suprising tone of security and acceptance.
 
-What I really want to talk about are the lyrics, which match this vibe completely. Power writes about difficult emotions and relationships in a way that feels truthful and unpretentious. Her verse is economical but fruitful, leveraging quick observations and fragments of description to expose the deeper currents below. Most of all, the lyrics feel vital: they invite you to connect with what feel like a person's most urgent and heartfelt inner feelings.
+What I really want to talk about are the lyrics, which match this vibe completely. Power writes about difficult emotions and relationships in a way that feels truthful and unpretentious. Her lyrics are economical but full of meaning, leveraging quick observations and fragments of description to expose deeper currents below. Most of all, the lyrics feel vital: they invite you to connect with what feel like someone's heartfelt inner feelings.
 
 The album opens with cheery country song ‘On A City Night’, in which somebody immediately answers his own question.
 
@@ -54,14 +54,14 @@ In ‘I Was Named After You’, Power names an interesting duality.
 > In its other form -- vulnerability?
 > Of that I have plenty
 
-This verse points out that strength and vulnerability are two forms of the same material. I think this is a theme that can be used to fundamentally characterise Power’s music. It's encapsulated even in the album's title: “head above the water” implies a great struggle to stay afloat, but it does actually describe a moment of triumph over that struggle. I think a lot of the emotional heft of Power's music comes not just from the vulnerability she shows in her writing, but also from the strength that that vulnerability cultivates.
+This verse points out that strength and vulnerability are two forms of the same material. I think this is a theme that characterises lots of Power’s music. It's encapsulated even in the album's title: “head above the water” implies a great struggle to stay afloat, but it does actually describe a moment of triumph over that struggle. I think a lot of the emotional heft of Power's music comes not just from the vulnerability she shows in her writing, but also from the strength that that vulnerability cultivates.
 
 > And now I’ve no doubt
 > Why I was named after you
 > ‘Cause it’s the vulnerability
 > That did mend the situation in the end
 
-Power’s lyrics are ardently vulnerable. They have the intensity of someone who really needs to be heard and understood. And after searching for strength that Power believes to be missing in herself at the beginning of this song, she eventually finds that it was vulnerability that could “mend the situation in the end”. Power's writing understands that strength and vulnerability each require and build the other: vulnerability comes from a willingness to risk embarrassment or pain, and strength comes from knowing yourself, being aware and in control of your flaws.
+Power’s lyrics are urgently vulnerable. They have the intensity of someone who really needs to be heard and understood. And after searching for strength that Power believes to be missing in herself at the beginning of this song, she eventually finds that it was vulnerability that could “mend the situation in the end”. Power's writing understands that strength and vulnerability each require and build the other: vulnerability comes from a willingness to risk embarrassment or pain, and strength comes from knowing yourself, being aware and in control of your flaws.
 
 I think this is best exemplified in the brilliant song ‘I Had To Keep My Circle Small’. It’s a song about a breakup of some kind, a relationship where the speaker has had to distance themselves, and it’s both sad, in exploring the pain and the problems that caused this parting, and at the same time, strong in its convictions. Power’s character has fought for herself, has carved out what she needs, and she isn’t regretting that it happened, but explaining why it had to.
 
@@ -106,7 +106,7 @@ The minimal arrangement gives Power full room to scythe up and down through the 
 
 There’s actually a bit of a meandering quality to these verses. The ideas don't all clearly fit together to form one overarching point. It’s like Power's character has lessened her grip on the hard principles she was defending in ‘I Had To Keep My Circle Small’. There’s less of that tone of litigation; it sounds more like exhaustion, like she's simply sharing an unfiltered stream of feelings.
 
-And in these unfiltered ideas, the speaker seems to find some common ground with her addressee. She says that she can see their “pain that can’t be helped”. The titular image of one’s “head above the water,” when it finally comes here at the end of the album, doesn’t refer to Power’s own struggle but that of the other person. It could be a recognition that when someone lashes out, it’s often more about their own pain and fear, an attempt to stay afloat.
+And in these unfiltered ideas, the speaker seems to find some common ground with her addressee. She says that she can see their “pain that can’t be helped”. The titular image of one’s “head above the water”, when it finally comes here at the end of the album, doesn’t refer to Power’s own struggle but that of the other person. It could be a recognition that when someone lashes out, it’s often more about their own pain and fear, an attempt to stay afloat.
 
 The first verse is then repeated, meaning the last words are that blessing and implicit goodbye: “I wish you luck with your losses from before.” I think this ending is a note of acceptance and forgiveness. The instrumental drifts on, the place of the vocals is taken by a pensive whistle. It’s a moment of resolution that doesn’t negate the pain and searching found elsewhere in the album.
 
