@@ -1,17 +1,22 @@
+---
+import LinkCluster from "./LinkCluster.astro"
+---
+
 <footer>
-    <!-- <p>Thanks for reading!</p> -->
+    <LinkCluster links={[
+        { text: "Mailing list", href: "/subscribe" },
+        { text: "RSS", href: "/rss" },
+    ]} />
 </footer>
 
 <style lang="scss">
     @use '../styles/_tokens' as *;
 
     footer {
-        margin-block-start: $space-lg;
-        padding-block-end: $space-md;
+        margin-block: $space-xl $space-lg;
 
         @include font-technical;
         text-align: center;
-        font-size: $size-sm;
 
         > * {
             margin-block: 0;

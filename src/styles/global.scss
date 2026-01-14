@@ -1,32 +1,55 @@
 @use './_tokens' as *;
 
+/* Global and root styles */
 * {
     box-sizing: border-box;
 }
 
 :root {
     @include font-content;
-    
+
     background-color: $color-base;
     color: $color-neutral;
     font-size: $size-md;
 }
 
-h1, h2, h3, h4, h5, h6, p, blockquote {
+/* Prose elements. */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+ul,
+ol {
     @include margin-between($space-md);
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     @include font-display;
     font-size: $size-lg;
 }
 
-p, .prose {
+p,
+.prose {
     line-height: $line-height-lg;
 }
 
 .prose {
-    h1, h2, h3, h4, h5, h6 {
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
         margin-block-start: $space-lg;
     }
 }
@@ -63,7 +86,8 @@ img {
     box-shadow: 0 $shadow-offset $shadow-blur $color-subtle;
 }
 
-ul, blockquote {
+ul, ol,
+blockquote {
     margin-inline: 0;
     padding-inline: $space-lg;
 }
@@ -86,4 +110,36 @@ hr {
     &.invisible {
         background-color: transparent;
     }
+}
+
+/* Footnotes. */
+.footnotes {
+    border-top: $border-thickness solid $color-subtle;
+
+    margin-block-start: $space-lg;
+    padding-block-start: $space-lg;
+
+    ol {
+        margin-block: 0;
+    }
+}
+
+[data-footnote-ref]::before {
+    content: '[';
+}
+
+[data-footnote-ref]::after {
+    content: ']';
+}
+
+/* Hide the section label for visual users. */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    word-wrap: normal;
+    border: 0;
 }
