@@ -63,15 +63,26 @@ a {
     text-decoration: none;
 
     &:hover {
-        text-decoration: underline;
-        text-decoration-thickness: $underline-thickness;
+        text-decoration: underline 2px;
+    }
+}
+
+sup a {
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline 1px;
     }
 }
 
 a[href^="/tag/"] {
     @include font-technical;
     color: $color-neutral;
-    text-decoration: underline;
+    text-decoration: underline 1px;
+
+    &:hover {
+        text-decoration: underline 2px;
+    }
 }
 
 a[href^="/post/"] {
