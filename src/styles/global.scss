@@ -86,6 +86,12 @@ img {
     box-shadow: 0 $shadow-offset $shadow-blur $color-subtle;
 }
 
+.prose img {
+    max-height: 70vh;
+    width: auto;
+    margin-inline: auto;
+}
+
 ul, ol,
 blockquote {
     margin-inline: 0;

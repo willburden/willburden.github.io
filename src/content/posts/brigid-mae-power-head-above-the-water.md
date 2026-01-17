@@ -118,4 +118,4 @@ I went to see Brigid Mae Power performing in Newcastle! It was completely atmosp
 
 I also got this T-shirt that Power painted!
 
-\[Include pic of shirt\]
+![A white T-shirt painted with blue roses in rain. The smaller details are dotted out in a sea green.](../media/brigid-mae-power-shirt.jpg)
