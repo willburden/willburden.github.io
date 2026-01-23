@@ -91,6 +91,16 @@ a[href^="/post/"] {
     font-weight: bold;
 }
 
+figure {
+    margin-inline: 0;
+}
+
+figcaption {
+    text-align: center;
+    margin-block-start: $space-xs;
+    font-style: italic;
+}
+
 img {
     display: block;
     border-radius: $border-radius;

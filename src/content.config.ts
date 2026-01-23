@@ -11,6 +11,7 @@ const posts = defineCollection({
         hero: z.strictObject({
             image: image(),
             alt: z.string().optional(),
+            caption: z.string().optional(),
         }).optional(),
         bandcamp: z.strictObject({
             album: z.number(),

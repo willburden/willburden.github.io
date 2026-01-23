@@ -25,9 +25,14 @@ const pubDate = formatDate.verbose(data.pubDate);
         <PostTags tags={data.tags} />
     </div>
     {data.hero?.image !== undefined &&
-        <Image
-            src={data.hero.image} alt={data.hero.alt ?? null}
-            priority />
+        <figure>
+            <Image
+                src={data.hero.image} alt={data.hero.alt ?? null}
+                priority />
+            {data.hero?.caption !== undefined &&
+                <figcaption>{data.hero.caption}</figcaption>
+            }
+        </figure>
     }
     {data.bandcamp?.album !== undefined &&
         <Aside><Bandcamp {...data.bandcamp} /></Aside>
@@ -66,39 +71,9 @@ const pubDate = formatDate.verbose(data.pubDate);
                 line-height: $line-height-md;
             }
         }
+
+        figure {
+            margin-inline: -$space-md;
+        }
     }
-
-    // header {
-    //     position: relative;
-    //     margin-block-end: $space-md;
-    //     line-height: $line-height-md;
-
-    //     > * {
-    //         @include margin-between($space-xs);
-    //     }
-
-    //     h1 {
-    //         font-size: $size-xl;
-    //     }
-
-    //     .frontmatter {
-    //         > * {
-    //             margin-block: 0;
-    //         }
-    //     }
-
-    //     h2 {
-    //         font-size: $size-md;
-    //     }
-
-    //     p {
-    //         @include font-technical;
-    //     }
-
-    //     img {
-    //         margin-block-end: 0;
-    //         padding: 0;
-    //         border-radius: 0;
-    //     }
-    // }
 </style>
